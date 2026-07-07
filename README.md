@@ -4,10 +4,12 @@
 
 ## HashiCorp Terraform Labs
 
-[![Teraform Version](https://img.shields.io/badge/Terraform%201.11.3-Tested-grey?style=flat&logo=terraform&logoColor=white&labelColor=purple)](https://releases.hashicorp.com/terraform/1.11.3/)
+[![Teraform Version](https://img.shields.io/badge/Terraform%201.12.2-Tested-grey?style=flat&logo=terraform&logoColor=white&labelColor=purple)](https://releases.hashicorp.com/terraform/1.12.2/)
 [![Terraform Tests](https://github.com/btkrausen/terraform-testing/actions/workflows/aws_lab_validation.yml/badge.svg)](https://github.com/btkrausen/terraform-testing/actions/workflows/aws_lab_validation.yml)
 
 Welcome to this HashiCorp Terraform lab repo, where you can get hands-on experience with **HashiCorp Terraform** using GitHub Codespaces. In this repository, you’ll find a variety of [labs](./labs) that walk you through learning and using HashiCorp Terraform in different scenarios.
+
+> **Terraform Version:** This repo purposely uses Terraform 1.12.x to align with the HashiCorp Certified: Terraform Associate 004 exam objectives. Labs may not work with newer versions of Terraform, so please ensure you are using the correct version.
 
 **Note:** GitHub provides users with 120 core hours for FREE per month. [Check your current consumption of hours here](https://github.com/settings/billing/summary#:~:text=%240.00-,Codespaces,-Included%20quotas%20reset). Additionally, you can [set a limit of spending for Codespaces on your account here](https://github.com/settings/billing/spending_limit#:~:text=Spending%20limit%20alerts-,Codespaces,-Limit%20spending).
 
