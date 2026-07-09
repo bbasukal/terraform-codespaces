@@ -91,7 +91,7 @@ These labs are fully self-contained and can be completed in any order.
 |  16   | Replacing a Single Resource | [AWS](./labs/lab_16_replace_a_single_resource/AWS/aws.md) | Coming Soon | Coming Soon |
 |  17   | Upgrading a Provider and Module | [AWS](./labs/lab_17_upgrade_a_provider_and_module/AWS/aws.md) | Coming Soon | Coming Soon |
 |  18   | Refactoring State with `moved` and `removed` | [AWS](./labs/lab_18_refactor_state_with_moved_and_removed_blocks/AWS/aws.md) | [Azure](./labs/lab_18_refactor_state_with_moved_and_removed_blocks/AZURE/azure.md) | [GitHub](./labs/lab_18_refactor_state_with_moved_and_removed_blocks/GITHUB/github.md) |
-|  19   | Importing an Existing Resource | Coming Soon | Coming Soon | Coming Soon |
+|  19   | Importing an Existing Resource | [AWS](./labs/lab_19_import_a_resource/AWS/aws.md) | [Azure](./labs/lab_19_import_a_resource/AZURE/azure.md) | [GitHub](./labs/lab_19_import_a_resource/GITHUB/github.md) |
 |  20   | Migrating State to a New Backend | Coming Soon | Coming Soon | Coming Soon |
 |  21   | Using Terraform Workspaces | Coming Soon | Coming Soon | Coming Soon |
 |  22   | Using Terraform Logging | Coming Soon | Coming Soon | Coming Soon |
