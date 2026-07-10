@@ -73,11 +73,11 @@ Open `providers.tf` and add the following configuration:
 
 ```hcl
 terraform {
-  required_version = ">= 1.10.x"  # Replace with your installed version
+  required_version = ">= 1.12.2"  # Replace with your installed version
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "~> 5.0"
+      version = "~> 6.0"
     }
   }
 }
@@ -108,9 +108,9 @@ Expected output:
 ```bash
 Initializing the backend...
 Initializing provider plugins...
-- Finding hashicorp/aws versions matching "~> 5.0"...
-- Installing hashicorp/aws v5.87.0...
-- Installed hashicorp/aws v5.87.0 (signed by HashiCorp)
+- Finding hashicorp/aws versions matching "~> 6.0"...
+- Installing hashicorp/aws v6.46.0...
+- Installed hashicorp/aws v6.46.0 (signed by HashiCorp)
 Terraform has created a lock file .terraform.lock.hcl to record the provider
 selections it made above. Include this file in your version control repository
 so that Terraform can guarantee to make the same selections by default when
@@ -162,7 +162,7 @@ Initializing the backend...
 3. Change the version requirement back to your current version:
 
 ```hcl
-required_version = ">= 1.10.x"  # Replace with your actual version
+required_version = ">= 1.12.2"  # Replace with your actual version
 ```
 
 4. Run terraform init again:

@@ -57,7 +57,7 @@ Add the following to the `providers.tf` file to declare the required providers w
 
 ```hcl
 terraform {
-  required_version = ">= 1.12.0"
+  required_version = ">= 1.12.2"
 
   required_providers {
     aws = {
@@ -226,7 +226,7 @@ Open `terraform.tf` and update the AWS provider version constraint from `~> 5.20
 
 ```hcl
 terraform {
-  required_version = ">= 1.12.0"
+  required_version = ">= 1.12.2"
 
   required_providers {
     aws = {
