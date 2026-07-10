@@ -70,7 +70,7 @@ Open `providers.tf` and add the following configuration:
 
 ```hcl
 terraform {
-  required_version = ">= 1.10.x"  # Replace with your installed version
+  required_version = ">= 1.12.2"  # Replace with your installed version
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
@@ -106,9 +106,9 @@ Expected output:
 ➜  terraform git:(main) ✗ terraform init
 Initializing the backend...
 Initializing provider plugins...
-- Finding hashicorp/azurerm versions matching "~> 3.0"...
-- Installing hashicorp/azurerm v3.117.0...
-- Installed hashicorp/azurerm v3.117.0 (signed by HashiCorp)
+- Finding hashicorp/azurerm versions matching "~> 4.0"...
+- Installing hashicorp/azurerm v4.76.0...
+- Installed hashicorp/azurerm v4.76.0 (signed by HashiCorp)
 Terraform has created a lock file .terraform.lock.hcl to record the provider
 selections it made above. Include this file in your version control repository
 so that Terraform can guarantee to make the same selections by default when
@@ -157,7 +157,7 @@ is x.x.x. Please upgrade Terraform to a supported version.
 3. Change the version requirement back to your current version:
 
 ```hcl
-required_version = ">= 1.10.x"  # Replace with your actual version
+required_version = ">= 1.12.2"  # Replace with your actual version
 ```
 
 4. Run terraform init again:

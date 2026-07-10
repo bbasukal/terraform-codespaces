@@ -33,7 +33,7 @@ Create a `versions.tf` file to declare the required providers with an older vers
 
 ```hcl
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 1.12.2"
 
   required_providers {
     azurerm = {
@@ -216,7 +216,7 @@ Open `versions.tf` and update the Azure provider version constraint from `~> 3.1
 
 ```hcl
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 1.12.2"
 
   required_providers {
     azurerm = {

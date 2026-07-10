@@ -53,11 +53,11 @@ Open the `providers.tf` file and add the following configurations:
 
 ```hcl
 terraform {
-  required_version = ">= 1.0.0"
+  required_version = ">= 1.12.2"
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 4.0.0"
+      version = "~> 4.0"
     }
     random = {
       source  = "hashicorp/random"

@@ -70,11 +70,11 @@ Open `providers.tf` and add the following configuration:
 
 ```hcl
 terraform {
-  required_version = ">= 1.10.x"  # Replace with your installed version
+  required_version = ">= 1.12.2"  # Replace with your installed version
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "~> 6.5.0"
+      version = "~> 6.0"
     }
   }
 }
@@ -104,9 +104,9 @@ Expected Output:
 # terraform init
 Initializing the backend...
 Initializing provider plugins...
-- Finding integrations/github versions matching "~> 6.5.0"...
-- Installing integrations/github v6.5.0...
-- Installed integrations/github v6.5.0 (signed by a HashiCorp partner, key ID 38027F80D7FD5FB2)
+- Finding integrations/github versions matching "~> 6.0"...
+- Installing integrations/github v6.13.0...
+- Installed integrations/github v6.13.0 (signed by a HashiCorp partner, key ID 38027F80D7FD5FB2)
 Partner and community providers are signed by their developers.
 If you'd like to know more about provider signing, you can read about it here:
 https://www.terraform.io/docs/cli/plugins/signing.html
@@ -153,7 +153,7 @@ is x.x.x. Please upgrade Terraform to a supported version.
 3. Change the version requirement back to your current version:
 
 ```hcl
-required_version = ">= 1.10.x"  # Replace with your actual version
+required_version = ">= 1.12.2"  # Replace with your actual version
 ```
 
 4. Run terraform init again:
