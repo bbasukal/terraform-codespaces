@@ -1,1 +1,1 @@
-# Add outputs below
+# Add configurations below
