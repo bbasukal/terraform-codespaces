@@ -93,8 +93,6 @@ These labs are fully self-contained and can be completed in any order.
 |  18   | Refactoring State with `moved` and `removed` | [AWS](./labs/lab_18_refactor_state/AWS/aws.md) | [Azure](./labs/lab_18_refactor_state/AZURE/azure.md) | [GitHub](./labs/lab_18_refactor_state/GITHUB/github.md) |
 |  19   | Importing an Existing Resource | [AWS](./labs/lab_19_import_a_resource/AWS/aws.md) | [Azure](./labs/lab_19_import_a_resource/AZURE/azure.md) | [GitHub](./labs/lab_19_import_a_resource/GITHUB/github.md) |
 |  20   | Migrating State to a New Backend | [AWS](./labs/lab_20_migrate_state_to_a_new_backend/AWS/aws.md) | [Azure](./labs/lab_20_migrate_state_to_a_new_backend/AZURE/azure.md) | N/A |
-|  21   | Using Terraform Workspaces | Coming Soon | Coming Soon | Coming Soon |
-|  22   | Using Terraform Logging | Coming Soon | Coming Soon | Coming Soon |
 <br/>
 
 ---
